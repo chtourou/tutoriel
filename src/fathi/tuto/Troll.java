@@ -1,13 +1,8 @@
 package fathi.tuto;
 
-public class Troll {
-    int health;
-    int attack;
-    int defense;
-
+public class Troll extends Enemy {
     public Troll() {
-        health = 15;
-        attack = 10;
-        defense = 10;
+        super(15, 10, 10);
+
     }
 }

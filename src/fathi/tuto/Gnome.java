@@ -1,14 +1,8 @@
 package fathi.tuto;
 
-public class Gnome {
-    int health;
-    int attack;
-    int defense;
-
+public class Gnome extends Enemy {
     public Gnome() {
-        health = 10;
-        attack = 15;
-        defense = 5;
+        super(10, 15, 5);
 
     }
 

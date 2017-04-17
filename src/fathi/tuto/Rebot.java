@@ -1,13 +1,8 @@
 package fathi.tuto;
 
-public class Rebot {
-    int health;
-    int attack;
-    int defense;
-
+public class Rebot extends Enemy {
     public Rebot() {
-        health = 5;
-        attack = 10;
-        defense = 20;
+        super(5, 10, 20);
+
     }
 }

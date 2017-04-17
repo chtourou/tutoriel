@@ -2,10 +2,11 @@ package fathi.tuto;
 
 public class Program {
 
-    public static void main() {
-        Gnome g = new Gnome();
-        Rebot r = new Rebot();
-        Troll t = new Troll();
+    public static void main(String[] args) {
+        Enemy gnome = new Gnome();
+        Enemy rebot = new Rebot();
+        Enemy troll = new Troll();
+
 
     }
 }
